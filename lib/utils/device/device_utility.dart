@@ -114,7 +114,7 @@ class TDeviceUtils {
     if (await canLaunchUrlString(url)) {
       await launchUrlString(url);
     } else {
-      throw 'Could not launch $url';
+      throw 'Could not launch $url'; 
     }
   }
 }
